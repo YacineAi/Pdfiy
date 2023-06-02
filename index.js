@@ -14,7 +14,7 @@ function getPdfData(pdfUrl) {
   });
 }
 
-async function convertPDFtoIMG({ pge, pdfPath, scale = 3, png = true }) {
+async function convertPDFtoIMG({ pge, pdfPath, scale: scale = 1.5, png = true }) {
   if (!pdfPath) {
     throw new Error("pdfPath must be provided");
   }
