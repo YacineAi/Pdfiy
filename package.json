@@ -1,0 +1,16 @@
+{
+  "name": "pdfiy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yacine Djenidi",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "pdfjs-dist": "^3.7.107",
+    "request": "^2.88.2"
+  }
+}
